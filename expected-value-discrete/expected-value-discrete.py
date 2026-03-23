@@ -4,7 +4,6 @@ def expected_value_discrete(x, p):
     """
     Returns: float expected value
     """
-    # Write code here
     if len(x) != len(p):
         raise ValueError("x and p are not the same size")
     if abs(1-sum(p)) > 0.000001:
